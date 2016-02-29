@@ -1,0 +1,7 @@
+#Install Gedit
+Sudo apt-get install gedit/ Sudo apt-get remove gedit  #安装或者卸载gedit
+
+#Basic Linux commands
+
+man [Command]
+Display the help information for the specified command. For example: $ man ls
