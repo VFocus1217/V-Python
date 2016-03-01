@@ -5,3 +5,59 @@ Sudo apt-get install gedit/ Sudo apt-get remove gedit  #安装或者卸载gedit
 
 man [Command]
 Display the help information for the specified command. For example: $ man ls
+
+ls [options]  #show all files in the directory
+
+cat [filename]   #show the content of file to your monitor
+
+more [filename]   #similar to cat, but with pauses in between
+
+mkdir [options]   #make directory
+
+cp Common_Linux_commands.txt Common_Linux_Commands2.txt  #copy file
+
+mv [options] source destination  #rename or move files or directories
+
+cd directory_path  #enter directory
+
+cd ..    #go to upper directory
+
+pwd  #print the pathname for the current directory
+
+rm [options] files_or_directories   #remove files/directories
+
+rmdir [options] directory    #delete empty directories
+
+tar [options] filename #store and extract files from a tarfile(.tar) or tarball(.tar.gz or .tgz)
+Example: tar xvfz books.tar.gz
+
+sudo command_name   # Execute the command as administrative user
+
+clear #clear screen
+
+ps [options]  #display a snapshot of the currently running processes
+
+top     #display the resources being used on your system. Press q to exit
+
+kill [options] pid   #stop a process. If the process refuses to stop, use kill -9 pid
+
+killall process_name #kill processes by name, for example: killall firefox
+
+df [options] #display used and available disk space
+
+du [options] #show how much space each file takes up.
+
+file [options] filename # Determine what type of data is within a file
+
+ssh [options] user@machine   #Remotely log in to another Linux machine
+
+which filename   # Search a copy of your filesystem for the specified filename
+
+touch filename   # Create an expty file with the specified name
+
+passwd [option] LOGIN  # change password
+
+More commands and useful examples in 
+http://www.pixelbeat.org/cmdline.html
+
+
